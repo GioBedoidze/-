@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+    text-decoration: none; 
+    box-sizing: border-box;
+    color: #000;
+}
+body{   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+header{
+    background-color: #c4c4c4;
+    margin: 0px;
+    height: 150px;
+}
+header li{
+    float: left;
+    padding: 0px;
+    margin: 50px;
+}
+.dabruneba{
+    font-size: 10px;
+    margin: 32px;
+    color: #9c9890;
+}
+.items{
+    background-color: #FF9900;
+    height: 740px;
+    margin: 30px;
+    
+}
+.items .siaxle{
+   margin: 20px;
+}
+.items .img{
+    height: 200px;
+    width: 33.333%;
+    float: left; 
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.items .hdd{
+    background-image: url(../img/hdd.jpg);
+    
+}
+.items .clean{
+    background-image: url(../img/hddvsssd.jpg); 
+    background-color: #ffffff;   
+}
+.items .hddbox{
+    background-image: url(../img/micron.jpg);
+    background-color: #ffffff;
+}
+.items .text{
+    margin: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+footer{
+    font-size: 14px;
+    margin: 25px;
+}

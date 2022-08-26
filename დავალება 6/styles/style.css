@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+header{
+    width: 100%;
+    height: 94px;
+    background-color: #000;
+    padding: 12px 100px;
+}
+header h1 p{
+    text-indent: -999999px;
+}
+header img{
+    width: 70px;
+    height: 70px;
+    float: left;  
+    margin-right: 168px; 
+}
+
+header nav li{
+    float: left;
+    margin: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    position: relative;    
+}
+
+header li a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 1s;
+}
+header li a:hover::before{
+    width: 100%;
+}
+header nav li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: width 1s;
+}
+header li a:hover::after{
+    width: 100%;
+}
+header li a {
+    color: #ffffff;
+} 
+main {
+    margin: 10px auto;
+    width: 100%;
+    padding: 0px 110px;
+}
+main h2,h3{
+    padding: 44px 0px 0px 70px;
+    font-size: 24px;
+}
+main a{
+    color: #000000;
+}
+.block1,.latest{
+    display: flex;
+    padding-bottom: 35px;
+    width: 100%;
+}
+.block1{
+    padding-bottom: 70px;
+}
+
+.latest {
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+main article{
+    width: 33.3%;
+    height: 270px;
+    padding: 2.1vw;
+    position: relative; 
+}
+main section{
+    width: 100%;
+    height: 244px;
+    border:solid 1px;  
+    position: relative;
+}
+
+.latest article{
+    width: auto;
+    margin-bottom: 30px;
+}
+
+section .img{
+    background-image: url(../img/sound.png);
+    background-size: 25%;
+    width: 100%;
+    height: 90px;
+    background-repeat: repeat-x;
+    margin-top: 45px;
+    
+}
+section .like{
+    background-image: url(../img/like.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    transition: background-image 0s;
+}
+.like:hover{
+    cursor: pointer;
+    background-image: url(../img/color/like\ 2.png);
+}
+section h2{
+    display: inline-block;
+    padding: 23px 0px 14px 12px;
+}
+section p{
+    padding-left: 12px;    
+}
+main p::after{
+    content: "...";
+}
+div{
+    float: left;
+}
+.fb,.insta{
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    float: unset;
+    background-repeat: no-repeat;   
+}
+.fb :hover{
+    background-image: url(../img/color/facebook.png);
+}
+.insta :hover{
+    background-image: url(../img/color/instagram.png);
+}
+.social{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 212px;
+    right: 0; 
+   
+}    
+
+.fb a,.insta a{
+    display: block;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+}
+main .social p{
+    text-indent: 9999999px;
+}
+.fb{
+    background-image: url(../img/fb.png);
+}
+.insta{
+    background-image: url(../img/instagram.png);
+}
+.latest{
+    padding-bottom: 100px;
+}
+footer{
+    background-color: #000000;
+    width: 100%;
+    height: 354px;
+    background-size: cover;
+    float: left;
+    margin: 0px auto;
+    
+} 
+.footer a{
+    display: block;
+    overflow: hidden;
+}
+
+.footer a.out_block{
+    padding-top: 40px;
+}
+
+.footer{
+    margin: 0px auto;
+    float: initial;
+}
+.clear.all{
+    float: initial;
+}
+
+
+.footer .img{
+    background-image: url(../img/music-note.png);
+    width: 150px;
+    height:150px ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: inherit;
+    margin: auto;
+}
+.footer .nav2 li p{
+
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+footer .all p{
+  margin: 50px 648px 18px 648px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  
+}
+
+
+
+
+/* == meore gverdi== */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.playlist h1{
+    background-image: url(../img/music-note.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.playlist p{
+    float: left;
+}
+
+main p{
+ size: 18px;
+}
+.playlistmain .n1{
+    padding: 0px;
+} 
+.playlistmain .n2{
+   padding: 0px;
+   padding-bottom: 46px;
+}
+.playlistmain h2{
+    margin-bottom: 50px;
+}
+
+.playlistmain article{
+    height: auto;
+    overflow: hidden;
+}
+.section_top{
+    width: 100%;
+    float: inherit;
+    overflow: hidden;
+}
+.section_top article{
+    float: left;
+}
+.section_top article.n2 h3{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
+main h3{
+    margin-top: 100px;
+    padding-left: 30px;
+}
+
+.sound_block{
+    width: 100%;
+    text-align: center;
+    float: inherit;
+    margin-top: 50px;
+}
+
+.musicimg ,.musicimg2{
+    background-image: url(../img/sound.png);
+    width: 288px;
+    height: 65px;
+    margin-top: 0px;
+    padding-bottom: 106px;
+    background-size: 25%;
+    background-repeat: repeat-x;
+    float: inherit;
+    margin: auto;
+}
+
+.x,.y,.z,.zx{
+    margin-top: 106px;
+    width: 25%;
+}
+
+.x h2, .y h2, .z h2, .zx h2{
+    padding-left: 0px;
+}
+
+main .visit{
+    margin-top: 108px;
+    padding-bottom: 144px;
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+}
+
+.x_block{
+    display: flex;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.playlistfooter{
+    background-color: #000000;
+    width: 100%;
+    height: 354px;
+    background-size: cover;
+    float: left;
+    margin: 0 auto
+} 
+.playlistfooter .footer .img{
+    background-image: url(../img/music-note.png);
+    width: 150px;
+    height:150px ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: initial;
+    margin: auto;
+}
+.playlistfooter .footer .nav2 li p{
+
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+.playlistfooter .all p{
+  margin: 50px 648px 18px 648px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;  
+}
